@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="@color/color_125e9a"
+                >
+    <EditText
+            android:id="@+id/et_total_current"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+    android:background="@drawable/login_edittext"/>
+    <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:background="@color/color_80ff7e00"
+            android:text="@string/confirm"
+            android:textColor="@color/color_ffffff"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:layout_below="@+id/et_total_current"
+            android:layout_alignRight="@+id/et_total_current"
+    android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
